@@ -1,0 +1,41 @@
+# Build outputs
+.gradle
+build/
+out/
+
+# IDE and editor files
+.idea
+.vscode
+*.iws
+*.iml
+*.ipr
+*.ids
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test and temporary files
+*.log
+*.tmp
+*.swp
+*~
+
+# Git
+.git
+.gitignore
+
+# Documentation
+HELP.md
+*.md
+
+# Docker
+docker-compose*.yml
+docker-compose*.yaml
+*.dockerfile
+
+# Test files (not needed in production image)
+src/test/
+
+# Project files
+products-api.iml
